@@ -24,23 +24,6 @@ Observație: MVP este single‑tenant (un SSM‑ist), fără plăți/abonamente 
 
 ---
 
-## Platformă — ce adăugăm peste MVP și cât durează
-
-Funcționalități suplimentare (pe scurt):
-- Multi‑tenancy (un tenant per SSM‑ist) și rol „Platform Owner”
-- Template avansat (condiționale, secțiuni dinamice, imagini)
-- Notificări programabile + SMS
-- Plăți și abonamente (ex. Stripe) 
-- Semnătură calificată (QES)
-- S3 multi‑region + failover (extensie)
-- Observabilitate și securitate extinse, testare și hardening
-
-Timp total estimat implementare (increment peste MVP, fără Site Public): ≈ 1,435 ore
-
-Observație: aceste ore extind produsul din MVP într‑o platformă comercială multi‑tenant.
-
----
-
 ## Site Public — ce include și cât durează
 
 Funcționalități (pe scurt):
@@ -56,6 +39,23 @@ Timp total estimat implementare: ≈ 94 ore
 Note:
 - Poate fi dezvoltat și livrat separat de MVP/Platformă.
 - Integrarea cu backend este minimă (ex. formulare contact/newsletter) și nu afectează estimarea de mai sus.
+
+---
+
+## Platformă — ce adăugăm peste MVP și cât durează
+
+Funcționalități suplimentare (pe scurt):
+- Multi‑tenancy (un tenant per SSM‑ist) și rol „Platform Owner”
+- Template avansat (condiționale, secțiuni dinamice, imagini)
+- Notificări programabile + SMS
+- Plăți și abonamente (ex. Stripe) 
+- Semnătură calificată (QES)
+- S3 multi‑region + failover (extensie)
+- Observabilitate și securitate extinse, testare și hardening
+
+Timp total estimat implementare (increment peste MVP, fără Site Public): ≈ 1,435 ore
+
+Observație: aceste ore extind produsul din MVP într‑o platformă comercială multi‑tenant.
 
 ---
 
