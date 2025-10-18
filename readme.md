@@ -62,8 +62,7 @@ Note:
 ## Costuri operaționale (EUR/lună) — vedere simplificată
 
 1 SSM‑ist (MVP):
-- Fără opționale (fără SMS/QES/Arhivare S3): ~€6 – €48/lună
-- Cu opționale (SMS + arhivare S3): până la ~€60/lună
+- ~€6 – €48/lună
 
 10 SSM‑iști (200 angajați/SSM, total ~2,000):
 - Fără SMS/QES: ~€35 – €134/lună
